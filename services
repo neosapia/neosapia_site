@@ -1,1 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Services — Neosapia</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container navbar">
+    <a class="brand" href="../index.html">
+      <div class="brand-badge" aria-hidden="true"></div>
+      <div class="brand-title">
+        <strong>NEOSAPIA</strong>
+        <span>consulting</span>
+      </div>
+    </a>
+
+    <nav class="nav-links">
+      <a href="../philosophy/">Philosophie</a>
+      <a href="../ai_questions/">Vos questions sur l’IA</a>
+      <a href="../services/">Services</a>
+      <a href="../creator/">À propos du fondateur</a>
+      <a href="../TUI/">TUI bio &amp; numérique</a>
+      <a href="../contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container page">
+  <h1>Services</h1>
+  <p class="lead">
+    Interventions adaptées aux individus, équipes et organisations : soutien relationnel,
+    décision, médiation, compréhension, prospective.
+  </p>
+
+  <div class="split">
+    <div class="card">
+      <h2>Formats</h2>
+      <ul>
+        <li>Conseil individuel et collectif</li>
+        <li>Aide à la décision</li>
+        <li>Ateliers de réflexion et de travail</li>
+        <li>Formations et conférences</li>
+        <li>Accompagnement humain au changement</li>
+        <li>Médiation / animation de débats</li>
+        <li>Rapports et analyses prospectives</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Résultats attendus</h2>
+      <ul>
+        <li>Moins de confusion, moins de conflit, plus de clarté.</li>
+        <li>Une posture stable : lucide, responsable, non anxieuse.</li>
+        <li>Des décisions alignées avec le réel (et pas avec le bruit).</li>
+        <li>Un langage commun dans l’équipe / l’organisation.</li>
+      </ul>
+      <div class="cta">
+        <a class="btn primary" href="../contact/">Parler de votre contexte</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <small>© <span id="y"></span> Neosapia</small>
+  </div>
+</footer>
+
+<script src="../assets/script.js"></script>
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
 
