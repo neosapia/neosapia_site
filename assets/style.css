@@ -226,34 +226,29 @@ footer {
   color: var(--muted);
   font-size: 13px;
 }
+/* ---------- Liens texte ---------- */
 
-/* Liens = même couleur que le texte */
 a {
-  color: inherit;
-  text-decoration: none;
-}
-
-/* Optionnel : effet au survol (subtil) */
-a:hover {
-  text-decoration: underline;
-}
-
-
-/* Liens avec surlignage discret */
-a {
-  color: inherit;
-  text-decoration: none;
-  background: linear-gradient(
-    transparent 65%,
-    rgba(255, 212, 0, 0.25) 65%
-  );
-  transition: background 0.15s ease;
+  color: inherit;              /* même couleur que le texte */
+  text-decoration: underline;  /* souligné */
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 1px;
 }
 
 a:hover {
-  background: linear-gradient(
-    transparent 55%,
-    rgba(255, 212, 0, 0.45) 55%
-  );
+  text-decoration-thickness: 2px;
+}
+
+/* ---------- Exceptions ---------- */
+
+/* Liens de navigation : pas soulignés */
+.nav-links a {
+  text-decoration: none;
+}
+
+/* Boutons : pas soulignés */
+.btn,
+.btn:hover {
+  text-decoration: none;
 }
 
