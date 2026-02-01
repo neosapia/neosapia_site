@@ -1,1 +1,82 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>À propos du fondateur — Neosapia</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+
+<header>
+  <div class="container navbar">
+    <a class="brand" href="../index.html">
+      <div class="brand-badge" aria-hidden="true"></div>
+      <div class="brand-title">
+        <strong>NEOSAPIA</strong>
+        <span>consulting</span>
+      </div>
+    </a>
+
+    <nav class="nav-links">
+      <a href="../philosophy/">Philosophie</a>
+      <a href="../ai_questions/">Vos questions sur l’IA</a>
+      <a href="../services/">Services</a>
+      <a href="../creator/">À propos</a>
+      <a href="../TUI/">TUI bio &amp; numérique</a>
+      <a href="../contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container page">
+  <h1>À propos du fondateur</h1>
+
+  <p class="lead">
+    Présentation sobre, orientée expérience et capacité de médiation entre mondes :
+    science, technique, pédagogie, humains.
+  </p>
+
+  <div class="split">
+    <div class="card">
+      <h2>Profil</h2>
+      <p>
+        Mathieu Rondet est titulaire de deux masters en biologie moléculaire, génétique,
+        biochimie et développement (France et USA). Spécialisé en simulations physiques
+        et création d’univers numériques, il enseigne et évolue depuis plus de vingt ans
+        à l’interface entre sciences, technologies, usages humains et pédagogie.
+      </p>
+      <p>
+        Son travail s’articule autour des enjeux de transition IA, de co-évolution
+        humain-machine, et des liens entre dynamiques informationnelles et expérience humaine.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Pourquoi ce rôle</h2>
+      <p>
+        Parce que le point dur n’est pas « l’outil », mais la bascule de repères :
+        confiance, identité, utilité, relation.  
+        L’intervention vise d’abord la stabilité humaine.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="../contact/">Me contacter</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <small>© <span id="y"></span> Neosapia</small>
+  </div>
+</footer>
+
+<script src="../assets/script.js"></script>
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
 
