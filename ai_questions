@@ -1,1 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vos questions sur l’IA — Neosapia</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container navbar">
+    <a class="brand" href="index.html">
+      <div class="brand-badge" aria-hidden="true"></div>
+      <div class="brand-title"><strong>NEOSAPIA</strong><span>consulting</span></div>
+    </a>
+    <nav class="nav-links">
+      <a href="philosophie.html">Philosophie</a>
+      <a href="questions-ia.html">Vos questions sur l’IA</a>
+      <a href="services.html">Services</a>
+      <a href="fondateur.html">À propos</a>
+      <a href="tuibn.html">TUI bio &amp; numérique</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container page">
+  <h1>Vos questions sur l’IA</h1>
+  <p class="lead">
+    Les mêmes questions reviennent, quel que soit le secteur. Nous y répondons sans jargon,
+    avec honnêteté et sans dramatisation.
+  </p>
+
+  <div class="split">
+    <div class="card">
+      <h2>Questions fréquentes</h2>
+      <ul>
+        <li><strong>Qu’est-ce qu’une IA</strong>, et comment fonctionne-t-elle réellement ?</li>
+        <li><strong>Va-t-elle me remplacer</strong> ? Que deviennent mes compétences ?</li>
+        <li><strong>Puis-je faire confiance</strong> à ce qu’elle produit ?</li>
+        <li><strong>Ça va trop vite</strong> : comment ne pas me sentir dépassé ?</li>
+        <li><strong>Quelle est ma place</strong> humaine et biologique dans un monde plus numérique ?</li>
+        <li><strong>Comment rassurer</strong> mes collaborateurs / mes proches ?</li>
+        <li><strong>Dans quel monde</strong> vivront nos enfants ?</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Ce que nous apportons</h2>
+      <p>
+        Un cadre simple : clarifier les mécanismes, identifier les peurs légitimes,
+        distinguer risques réels et fantasmes, et construire une posture stable.
+      </p>
+      <ul>
+        <li>Compréhension opérationnelle (sans sur-technicité).</li>
+        <li>Médiation : réduire la tension et les conflits de représentation.</li>
+        <li>Anticipation : scénarios et trajectoires possibles, sans prophétie.</li>
+      </ul>
+      <div class="cta">
+        <a class="btn primary" href="contact.html">Demander un échange</a>
+        <a class="btn" href="services.html">Formats d’intervention</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container"><small>© <span id="y"></span> Neosapia</small></div>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
 
