@@ -226,3 +226,15 @@ footer {
   color: var(--muted);
   font-size: 13px;
 }
+
+/* Liens = même couleur que le texte */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Optionnel : effet au survol (subtil) */
+a:hover {
+  text-decoration: underline;
+}
+
