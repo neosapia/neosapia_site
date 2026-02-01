@@ -226,29 +226,17 @@ footer {
   color: var(--muted);
   font-size: 13px;
 }
-/* ---------- Liens texte ---------- */
 
-a {
-  color: inherit;              /* même couleur que le texte */
-  text-decoration: underline;  /* souligné */
-  text-underline-offset: 0.15em;
+/* Liens de contact : même couleur que le texte + soulignés */
+.contact-link {
+  color: inherit;
+  text-decoration: underline;
   text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
-a:hover {
+.contact-link:hover {
+  color: inherit;
   text-decoration-thickness: 2px;
-}
-
-/* ---------- Exceptions ---------- */
-
-/* Liens de navigation : pas soulignés */
-.nav-links a {
-  text-decoration: none;
-}
-
-/* Boutons : pas soulignés */
-.btn,
-.btn:hover {
-  text-decoration: none;
 }
 
