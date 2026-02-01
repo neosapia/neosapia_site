@@ -3,12 +3,32 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-  <base href="/neosapia/">
-  
   <title>Neosapia — Consulting</title>
   <meta name="description" content="Accompagnement humain et soutien relationnel pour une transition IA harmonieuse et non-conflictuelle." />
-  <link rel="stylesheet" href="assets/style.css" />
+ 
+<script>
+  (function () {
+    // Détecte si on est sur username.github.io/repo/... ou sur un domaine custom /
+    var isGithub = location.hostname.endsWith("github.io");
+    var parts = location.pathname.split("/").filter(Boolean);
+
+    // Sur GitHub Pages "project site", le 1er segment est le nom du repo.
+    // Sur un domaine custom (neosapia.org), on veut base = "/".
+    var base = "/";
+    if (isGithub && parts.length > 0) base = "/" + parts[0] + "/";
+
+    // Expose la base pour le reste de la page
+    window.__BASE__ = base;
+
+    // Injecte le CSS avec le bon chemin (avant affichage)
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = base + "assets/style.css";
+    document.head.appendChild(link);
+  })();
+</script>
+
+  
 </head>
 <body>
 <header>
