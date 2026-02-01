@@ -11,15 +11,18 @@
   <div class="container navbar">
     <a class="brand" href="index.html">
       <div class="brand-badge" aria-hidden="true"></div>
-      <div class="brand-title"><strong>NEOSAPIA</strong><span>consulting</span></div>
+      <div class="brand-title">
+        <strong>NEOSAPIA</strong>
+        <span>consulting</span>
+      </div>
     </a>
     <nav class="nav-links">
-      <a href="philosophie.html">Philosophie</a>
-      <a href="questions-ia.html">Vos questions sur l’IA</a>
-      <a href="services.html">Services</a>
-      <a href="fondateur.html">À propos</a>
-      <a href="tuibn.html">TUI bio &amp; numérique</a>
-      <a href="contact.html">Contact</a>
+      <a href="philosophy">Philosophie</a>
+      <a href="ai_questions">Vos questions sur l’IA</a>
+      <a href="services">Services</a>
+      <a href="creator">À propos du fondateur</a>
+      <a href="TUI">TUI bio &amp; numérique</a>
+      <a href="contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -59,11 +62,12 @@
 </main>
 
 <footer>
-  <div class="container"><small>© <span id="y"></span> Neosapia</small></div>
+  <div class="container">
+    <small>© <span id="y"></span> Neosapia</small>
+  </div>
 </footer>
 
 <script src="assets/script.js"></script>
 <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
 </body>
 </html>
-
