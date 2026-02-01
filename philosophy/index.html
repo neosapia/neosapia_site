@@ -4,31 +4,38 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Philosophie — Neosapia</title>
-  <link rel="stylesheet" href="assets/style.css" />
+
+  <!-- Chemin ABSOLU vers les assets -->
+  <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
+
 <header>
   <div class="container navbar">
-    <a class="brand" href="index.html">
+    <!-- Retour à la racine du site -->
+    <a class="brand" href="/">
       <div class="brand-badge" aria-hidden="true"></div>
       <div class="brand-title">
         <strong>NEOSAPIA</strong>
         <span>consulting</span>
       </div>
     </a>
+
+    <!-- MENU EN CHEMINS ABSOLUS (structure dossiers) -->
     <nav class="nav-links">
-      <a href="philosophy">Philosophie</a>
-      <a href="ai_questions">Vos questions sur l’IA</a>
-      <a href="services">Services</a>
-      <a href="creator">À propos du fondateur</a>
-      <a href="TUI">TUI bio &amp; numérique</a>
-      <a href="contact">Contact</a>
+      <a href="/philosophy/">Philosophie</a>
+      <a href="/ai_questions/">Vos questions sur l’IA</a>
+      <a href="/services/">Services</a>
+      <a href="/creator/">À propos</a>
+      <a href="/TUI/">TUI bio &amp; numérique</a>
+      <a href="/contact/">Contact</a>
     </nav>
   </div>
 </header>
 
 <main class="container page">
   <h1>Philosophie</h1>
+
   <p class="lead">
     La transition IA n’est pas seulement technique. C’est un changement de place, de repères, de valeur, de relation.
     Notre approche : comprendre avant de juger, pour décider sans subir.
@@ -38,13 +45,13 @@
     <div class="card">
       <h2>Ni outil, ni ennemi</h2>
       <p>
-        L’IA est souvent réduite à deux caricatures : le “déploiement” ou le “combat”.
+        L’IA est souvent réduite à deux caricatures : le « déploiement » ou le « combat ».
         Nous la traitons comme une rupture à traverser, avec lucidité, prudence et responsabilité.
       </p>
       <ul>
         <li>Réduire le bruit émotionnel pour retrouver une décision claire.</li>
         <li>Éviter l’idéologie : ni panique, ni naïveté.</li>
-        <li>Rester humain sans devenir “anti-futur”.</li>
+        <li>Rester humain sans devenir « anti-futur ».</li>
       </ul>
     </div>
 
@@ -55,7 +62,7 @@
         sentiment d’utilité, cohésion. C’est là que le conflit naît — et que la stabilité se reconstruit.
       </p>
       <p class="quote">
-        “Connaître, c’est juger sans haine.” — Simone de Beauvoir
+        « Connaître, c’est juger sans haine. » — Simone de Beauvoir
       </p>
     </div>
   </div>
@@ -67,7 +74,11 @@
   </div>
 </footer>
 
-<script src="assets/script.js"></script>
-<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<!-- Script ABSOLU -->
+<script src="/assets/script.js"></script>
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
