@@ -1,51 +1,87 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Neosapia</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      background: #0e0e11;
-      color: #e6e6eb;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-    }
-    .container {
-      max-width: 700px;
-      padding: 2rem;
-      text-align: center;
-    }
-    h1 {
-      font-weight: 500;
-      margin-bottom: 1.5rem;
-    }
-    p {
-      line-height: 1.6;
-      opacity: 0.85;
-    }
-    .cta {
-      margin-top: 2rem;
-      font-weight: 500;
-    }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Neosapia — Consulting</title>
+  <meta name="description" content="Accompagnement humain et soutien relationnel pour une transition IA harmonieuse et non-conflictuelle." />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>Toward a harmonious integration<br>and a non-conflictual transition with AI</h1>
+<header>
+  <div class="container navbar">
+    <a class="brand" href="index.html">
+      <div class="brand-badge" aria-hidden="true"></div>
+      <div class="brand-title">
+        <strong>NEOSAPIA</strong>
+        <span>consulting</span>
+      </div>
+    </a>
 
-    <p>
-      We do not approach AI as a tool to deploy or an adversary to fight,
-      but as a human and biological rupture to navigate.
-    </p>
-
-    <p class="cta">
-      Let’s talk.
-    </p>
+    <nav class="nav-links" aria-label="Navigation principale">
+      <a href="philosophie.html">Philosophie</a>
+      <a href="questions-ia.html">Vos questions sur l’IA</a>
+      <a href="services.html">Services</a>
+      <a href="fondateur.html">À propos</a>
+      <a href="tuibn.html">TUI bio &amp; numérique</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="kicker">Transition IA • accompagnement humain • non-conflictuel</div>
+    <h1>Pour une intégration harmonieuse et une transition non-conflictuelle avec l’intelligence artificielle.</h1>
+    <p class="subtitle">
+      Lors de nos interventions, nous ne traitons pas l’IA comme un outil à déployer ou à combattre,
+      mais comme une rupture humaine et biologique à traverser.
+    </p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Ce que nous faisons</h2>
+      <p>
+        Nous aidons les individus, équipes et organisations à comprendre ce qui arrive,
+        à réduire les frictions relationnelles, et à prendre des décisions lucides sans subir.
+      </p>
+      <ul>
+        <li>Clarifier, désamorcer, remettre du sens quand ça sature.</li>
+        <li>Accompagner la cohabitation responsable humain–IA (sans naïveté, sans panique).</li>
+        <li>Anticiper les trajectoires de co-évolution et leurs impacts concrets.</li>
+      </ul>
+      <div class="cta">
+        <a class="btn primary" href="contact.html">Parlons-nous</a>
+        <a class="btn" href="services.html">Voir les services</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Signaux typiques</h2>
+      <p class="badge">Inquiétude • Méfiance • Stress • Perte de repères</p>
+      <p class="badge">Fascination • Optimisation • Profit • Accélération</p>
+      <p>
+        Ce tiraillement empêche souvent de profiter pleinement des avantages,
+        tout en générant un mal-être inutile.
+      </p>
+      <p class="quote">
+        “Comprendre avant de juger, pour décider sans subir.”
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <small>
+      © <span id="y"></span> Neosapia — Consulting •
+      <a href="contact.html">Contact</a>
+    </small>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
 </body>
 </html>
