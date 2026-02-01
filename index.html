@@ -1,110 +1,51 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Neosapia — Consulting</title>
-  <meta name="description" content="Accompagnement humain et soutien relationnel pour une transition IA harmonieuse et non-conflictuelle." />
- 
-<script>
-  (function () {
-    // Détecte si on est sur username.github.io/repo/... ou sur un domaine custom /
-    var isGithub = location.hostname.endsWith("github.io");
-    var parts = location.pathname.split("/").filter(Boolean);
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Neosapia</title>
 
-    // Sur GitHub Pages "project site", le 1er segment est le nom du repo.
-    // Sur un domaine custom (neosapia.org), on veut base = "/".
-    var base = "/";
-    if (isGithub && parts.length > 0) base = "/" + parts[0] + "/";
-
-    // Expose la base pour le reste de la page
-    window.__BASE__ = base;
-
-    // Injecte le CSS avec le bon chemin (avant affichage)
-    var link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href = base + "assets/style.css";
-    document.head.appendChild(link);
-  })();
-</script>
-
-  
+  <!-- CSS RELATIF, ROBUSTE -->
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+
 <header>
   <div class="container navbar">
     <a class="brand" href="index.html">
-      <div class="brand-badge" aria-hidden="true"></div>
+      <div class="brand-badge"></div>
       <div class="brand-title">
         <strong>NEOSAPIA</strong>
         <span>consulting</span>
       </div>
     </a>
 
-    <nav class="nav-links" aria-label="Navigation principale">
-      <a href="philosophy">Philosophie</a>
-      <a href="ai_questions">Vos questions sur l’IA</a>
-      <a href="services">Services</a>
-      <a href="creator">À propos du fondateur</a>
-      <a href="TUI">TUI bio &amp; numérique</a>
-      <a href="contact">Contact</a>
+    <nav class="nav-links">
+      <a href="philosophy/index.html">Philosophie</a>
+      <a href="ai_questions/index.html">Vos questions sur l’IA</a>
+      <a href="services/index.html">Services</a>
+      <a href="creator/index.html">À propos</a>
+      <a href="TUI/index.html">TUI</a>
+      <a href="contact/index.html">Contact</a>
     </nav>
   </div>
 </header>
 
-<main class="container">
-  <section class="hero">
-    <div class="kicker">Transition IA • accompagnement humain • non-conflictuel</div>
-    <h1>Pour une intégration harmonieuse et une transition non-conflictuelle avec l’intelligence artificielle.</h1>
-    <p class="subtitle">
-      Lors de nos interventions, nous ne traitons pas l’IA comme un outil à déployer ou à combattre,
-      mais comme une rupture humaine et biologique à traverser.
-    </p>
-  </section>
-
-  <section class="grid">
-    <div class="card">
-      <h2>Ce que nous faisons</h2>
-      <p>
-        Nous aidons les individus, équipes et organisations à comprendre ce qui arrive,
-        à réduire les frictions relationnelles, et à prendre des décisions lucides sans subir.
-      </p>
-      <ul>
-        <li>Clarifier, désamorcer, remettre du sens quand ça sature.</li>
-        <li>Accompagner la cohabitation responsable humain–IA (sans naïveté, sans panique).</li>
-        <li>Anticiper les trajectoires de co-évolution et leurs impacts concrets.</li>
-      </ul>
-      <div class="cta">
-        <a class="btn primary" href="contact">Parlons-nous</a>
-        <a class="btn" href="services">Voir les services</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2>Signaux typiques</h2>
-      <p class="badge">Inquiétude • Méfiance • Stress • Perte de repères</p>
-      <p class="badge">Fascination • Optimisation • Profit • Accélération</p>
-      <p>
-        Ce tiraillement empêche souvent de profiter pleinement des avantages,
-        tout en générant un mal-être inutile.
-      </p>
-      <p class="quote">
-        “Comprendre avant de juger, pour décider sans subir.”
-      </p>
-    </div>
-  </section>
+<main class="container page">
+  <h1>Accueil</h1>
+  <p class="lead">Test de chargement CSS — si tu vois le fond sombre, c’est bon.</p>
 </main>
 
 <footer>
   <div class="container">
-    <small>
-      © <span id="y"></span> Neosapia — Consulting •
-      <a href="contact">Contact</a>
-    </small>
+    <small>© <span id="y"></span> Neosapia</small>
   </div>
 </footer>
 
 <script src="assets/script.js"></script>
-<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
