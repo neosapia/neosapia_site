@@ -4,12 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Vos questions sur l’IA — Neosapia</title>
-  <link rel="stylesheet" href="assets/style.css" />
+
+  <!-- Page dans /ai_questions/ : remonter d’un niveau -->
+  <link rel="stylesheet" href="../assets/style.css" />
 </head>
 <body>
+
 <header>
   <div class="container navbar">
-    <a class="brand" href="index.html">
+    <!-- Retour à la racine -->
+    <a class="brand" href="../">
       <div class="brand-badge" aria-hidden="true"></div>
       <div class="brand-title">
         <strong>NEOSAPIA</strong>
@@ -17,21 +21,21 @@
       </div>
     </a>
 
-<nav class="nav-links">
-  <a href="/">Accueil</a>
-  <a href="/philosophy/">Philosophie</a>
-  <a href="/ai_questions/">Vos questions sur l’IA</a>
-  <a href="/services/">Services</a>
-  <a href="/creator/">À propos du fondateur</a>
-  <a href="/TUI/">TUI bio & numérique</a>
-  <a href="/contact/">Contact</a>
-</nav>
-
+    <!-- Menu en chemins relatifs depuis /ai_questions/ -->
+    <nav class="nav-links">
+      <a href="../philosophy/">Philosophie</a>
+      <a href="../ai_questions/">Vos questions sur l’IA</a>
+      <a href="../services/">Services</a>
+      <a href="../creator/">À propos</a>
+      <a href="../TUI/">TUI bio &amp; numérique</a>
+      <a href="../contact/">Contact</a>
+    </nav>
   </div>
 </header>
 
 <main class="container page">
   <h1>Vos questions sur l’IA</h1>
+
   <p class="lead">
     Les mêmes questions reviennent, quel que soit le secteur. Nous y répondons sans jargon,
     avec honnêteté et sans dramatisation.
@@ -41,30 +45,30 @@
     <div class="card">
       <h2>Questions fréquentes</h2>
       <ul>
-        <li><strong>Qu’est-ce qu’une IA</strong>, et comment fonctionne-t-elle réellement ?</li>
-        <li><strong>Va-t-elle me remplacer</strong> ? Que deviennent mes compétences ?</li>
-        <li><strong>Puis-je faire confiance</strong> à ce qu’elle produit ?</li>
-        <li><strong>Ça va trop vite</strong> : comment ne pas me sentir dépassé ?</li>
-        <li><strong>Quelle est ma place</strong> humaine et biologique dans un monde plus numérique ?</li>
-        <li><strong>Comment rassurer</strong> mes collaborateurs / mes proches ?</li>
-        <li><strong>Dans quel monde</strong> vivront nos enfants ?</li>
+        <li><strong>Qu’est-ce qu’une IA</strong>, et comment fonctionne-t-elle réellement&nbsp;?</li>
+        <li><strong>Va-t-elle me remplacer</strong>&nbsp;? Que deviennent mes compétences&nbsp;?</li>
+        <li><strong>Puis-je faire confiance</strong> à ce qu’elle produit&nbsp;?</li>
+        <li><strong>Ça va trop vite</strong>&nbsp;: comment ne pas me sentir dépassé&nbsp;?</li>
+        <li><strong>Quelle est ma place</strong> humaine et biologique dans un monde plus numérique&nbsp;?</li>
+        <li><strong>Comment rassurer</strong> mes collaborateurs / mes proches&nbsp;?</li>
+        <li><strong>Dans quel monde</strong> vivront nos enfants&nbsp;?</li>
       </ul>
     </div>
 
     <div class="card">
       <h2>Ce que nous apportons</h2>
       <p>
-        Un cadre simple : clarifier les mécanismes, identifier les peurs légitimes,
+        Un cadre simple&nbsp;: clarifier les mécanismes, identifier les peurs légitimes,
         distinguer risques réels et fantasmes, et construire une posture stable.
       </p>
       <ul>
         <li>Compréhension opérationnelle (sans sur-technicité).</li>
-        <li>Médiation : réduire la tension et les conflits de représentation.</li>
-        <li>Anticipation : scénarios et trajectoires possibles, sans prophétie.</li>
+        <li>Médiation&nbsp;: réduire la tension et les conflits de représentation.</li>
+        <li>Anticipation&nbsp;: scénarios et trajectoires possibles, sans prophétie.</li>
       </ul>
       <div class="cta">
-        <a class="btn primary" href="contact">Demander un échange</a>
-        <a class="btn" href="services">Formats d’intervention</a>
+        <a class="btn primary" href="../contact/">Demander un échange</a>
+        <a class="btn" href="../services/">Formats d’intervention</a>
       </div>
     </div>
   </div>
@@ -76,7 +80,11 @@
   </div>
 </footer>
 
-<script src="assets/script.js"></script>
-<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+<!-- Script depuis /ai_questions/ -->
+<script src="../assets/script.js"></script>
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
