@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Philosophie — Neosapia</title>
 
-  <!-- Chemin ABSOLU vers les assets -->
-  <link rel="stylesheet" href="/assets/style.css" />
+  <!-- IMPORTANT : page dans /philosophy/ => remonter d’un niveau -->
+  <link rel="stylesheet" href="../assets/style.css" />
 </head>
 <body>
 
 <header>
   <div class="container navbar">
-    <!-- Retour à la racine du site -->
-    <a class="brand" href="/">
+    <!-- Retour à la racine du site (un niveau au-dessus) -->
+    <a class="brand" href="../">
       <div class="brand-badge" aria-hidden="true"></div>
       <div class="brand-title">
         <strong>NEOSAPIA</strong>
@@ -21,21 +21,20 @@
       </div>
     </a>
 
-    <!-- MENU EN CHEMINS ABSOLUS (structure dossiers) -->
+    <!-- Liens relatifs depuis /philosophy/ -->
     <nav class="nav-links">
-      <a href="/philosophy/">Philosophie</a>
-      <a href="/ai_questions/">Vos questions sur l’IA</a>
-      <a href="/services/">Services</a>
-      <a href="/creator/">À propos</a>
-      <a href="/TUI/">TUI bio &amp; numérique</a>
-      <a href="/contact/">Contact</a>
+      <a href="../philosophy/">Philosophie</a>
+      <a href="../ai_questions/">Vos questions sur l’IA</a>
+      <a href="../services/">Services</a>
+      <a href="../creator/">À propos</a>
+      <a href="../TUI/">TUI bio &amp; numérique</a>
+      <a href="../contact/">Contact</a>
     </nav>
   </div>
 </header>
 
 <main class="container page">
   <h1>Philosophie</h1>
-
   <p class="lead">
     La transition IA n’est pas seulement technique. C’est un changement de place, de repères, de valeur, de relation.
     Notre approche : comprendre avant de juger, pour décider sans subir.
@@ -69,13 +68,11 @@
 </main>
 
 <footer>
-  <div class="container">
-    <small>© <span id="y"></span> Neosapia</small>
-  </div>
+  <div class="container"><small>© <span id="y"></span> Neosapia</small></div>
 </footer>
 
-<!-- Script ABSOLU -->
-<script src="/assets/script.js"></script>
+<!-- IMPORTANT : page dans /philosophy/ => remonter d’un niveau -->
+<script src="../assets/script.js"></script>
 <script>
   document.getElementById("y").textContent = new Date().getFullYear();
 </script>
