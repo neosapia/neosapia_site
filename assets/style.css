@@ -56,13 +56,13 @@ header {
 
 /* ---------- Brand ---------- */
 
-.brand {
+/*.brand {
   display: flex;
   align-items: center;
   gap: 12px;
   text-decoration: none;
   color: inherit;
-}
+}*/
 
 .brand {
   display: flex;
@@ -72,7 +72,7 @@ header {
 }
 
 .brand-logo {
-  height: 40px;        /* desktop */
+  height: 20px;        /* desktop */
   width: auto;
   display: block;
 }
