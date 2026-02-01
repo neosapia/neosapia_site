@@ -90,9 +90,14 @@ header {
   width: 34px;
   height: 34px;
   border-radius: 10px;
-  background: linear-gradient(135deg, var(--violet), var(--brown));
+  /*background: linear-gradient(135deg, var(--violet), var(--brown));
   border: 1px solid rgba(255,255,255,0.12);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.35);*/
+  background-image: url("/assets/logoWeb.png"); /* CHEMIN ABSOLU */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 
 .brand-title {
