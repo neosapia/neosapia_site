@@ -1,1 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Philosophie — Neosapia</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header>
+  <div class="container navbar">
+    <a class="brand" href="index.html">
+      <div class="brand-badge" aria-hidden="true"></div>
+      <div class="brand-title"><strong>NEOSAPIA</strong><span>consulting</span></div>
+    </a>
+    <nav class="nav-links">
+      <a href="philosophie.html">Philosophie</a>
+      <a href="questions-ia.html">Vos questions sur l’IA</a>
+      <a href="services.html">Services</a>
+      <a href="fondateur.html">À propos</a>
+      <a href="tuibn.html">TUI bio &amp; numérique</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container page">
+  <h1>Philosophie</h1>
+  <p class="lead">
+    La transition IA n’est pas seulement technique. C’est un changement de place, de repères, de valeur, de relation.
+    Notre approche : comprendre avant de juger, pour décider sans subir.
+  </p>
+
+  <div class="split">
+    <div class="card">
+      <h2>Ni outil, ni ennemi</h2>
+      <p>
+        L’IA est souvent réduite à deux caricatures : le “déploiement” ou le “combat”.
+        Nous la traitons comme une rupture à traverser, avec lucidité, prudence et responsabilité.
+      </p>
+      <ul>
+        <li>Réduire le bruit émotionnel pour retrouver une décision claire.</li>
+        <li>Éviter l’idéologie : ni panique, ni naïveté.</li>
+        <li>Rester humain sans devenir “anti-futur”.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Relationnel d’abord</h2>
+      <p>
+        L’impact principal se voit dans les relations : équipes, familles, confiance, identité professionnelle,
+        sentiment d’utilité, cohésion. C’est là que le conflit naît — et que la stabilité se reconstruit.
+      </p>
+      <p class="quote">
+        “Connaître, c’est juger sans haine.” — Simone de Beauvoir
+      </p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container"><small>© <span id="y"></span> Neosapia</small></div>
+</footer>
+
+<script src="assets/script.js"></script>
+<script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
 
