@@ -281,6 +281,7 @@ footer {
 
     header {
     padding: 0.5rem 0;
+    background: lime !important;
   }
 
  /* ---------- LOGO ---------- */
