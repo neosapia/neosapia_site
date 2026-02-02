@@ -268,8 +268,6 @@ footer {
 
 
 
-
-
 /* ============================
    RESPONSIVE — MOBILE FIRST
    ============================ */
@@ -281,8 +279,17 @@ footer {
     padding: 1.25rem;
   }
 
+    header {
+    padding: 0.5rem 0;
+  }
+
  /* ---------- LOGO ---------- */
-.brand-logo {
+
+  .brand {
+    margin-bottom: 0.25rem;
+  }
+  
+  .brand-logo {
     height: 32px;
   }
 
@@ -293,6 +300,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
+    padding: 0;
   }
 
   .nav-links {
