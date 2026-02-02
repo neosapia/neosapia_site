@@ -280,8 +280,9 @@ footer {
   }
 
     header {
-    padding: 0.5rem 0;
-    background: lime !important;
+    padding: 0.25rem 0 !important;
+    max-height: 64px;
+    overflow: hidden;
   }
 
  /* ---------- LOGO ---------- */
@@ -291,17 +292,19 @@ footer {
   }
   
   .brand-logo {
-    height: 32px;
+    height: 28px !important;
+    width: auto !important;
+    display: block;
   }
 
   
   /* ---------- NAVBAR ---------- */
 
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     gap: 0.5rem;
-    padding: 0;
   }
 
   .nav-links {
