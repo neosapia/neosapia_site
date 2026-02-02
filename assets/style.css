@@ -311,7 +311,7 @@ footer {
   .nav-links {
     display: flex;
     flex-direction: column;      /* 🔑 menu vertical */
-    gap: 0.1rem;
+    gap: 0.12rem;
     /*width: 100%;*/
     margin-left: auto; 
   }
