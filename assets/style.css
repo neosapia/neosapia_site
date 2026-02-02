@@ -280,7 +280,7 @@ footer {
   }
 
     header {
-    padding: 0.55rem 0;
+    padding: 0.45rem 0;
     /*max-height: 64px;
     overflow: hidden;*/
   }
@@ -288,7 +288,7 @@ footer {
  /* ---------- LOGO ---------- */
 
   .brand {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
   }
   
   .brand-logo {
@@ -304,20 +304,20 @@ footer {
     display: flex;
     flex-direction: column;      /* 🔑 empile tout */
     align-items: flex-start;     /* alignement propre */
-    gap: 0.5rem;
+    gap: 0.4rem;
   }
 
   .nav-links {
     display: flex;
     flex-direction: column;      /* 🔑 menu vertical */
-    gap: 0.2rem;
+    gap: 0.1rem;
     width: 100%;
   }
 
   .nav-links a {
     font-size: 1rem;
-    padding: 0.2rem 0;
-    line-height: 1.2;
+    padding: 0.1rem 0;
+    line-height: 1.1;
     white-space: normal;
   }
 
