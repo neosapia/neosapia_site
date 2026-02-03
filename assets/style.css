@@ -169,6 +169,46 @@ h1 {
   max-width: 80ch;
 }
 
+
+
+
+
+/* Base commune */
+.badge {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Titre "Négatives / Positives" */
+.badge-title {
+  font-weight: 600;
+  margin-right: 0.25rem;
+}
+
+/* Variante négative */
+.badge-negative {
+  color: #c77d7d;          /* exemple : rouge désaturé */
+}
+
+.badge-negative .badge-title {
+  color: #d9534f;
+  letter-spacing: 0.02em;
+}
+
+/* Variante positive */
+.badge-positive {
+  color: #7fbf9f;          /* exemple : vert doux */
+}
+
+.badge-positive .badge-title {
+  color: #5cb85c;
+  letter-spacing: 0.04em;
+}
+
+
+
+
+
 /* ---------- Cards ---------- */
 
 .split {
