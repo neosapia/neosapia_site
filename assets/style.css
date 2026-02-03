@@ -191,7 +191,7 @@ h1 {
 }
 
 .badge-negative .badge-title {
-  color: #d9534f;
+  /*color: #d9534f;*/
   letter-spacing: 0.02em;
 }
 
@@ -201,7 +201,7 @@ h1 {
 }
 
 .badge-positive .badge-title {
-  color: #5cb85c;
+  /*color: #5cb85c;*/
   letter-spacing: 0.04em;
 }
 
