@@ -377,7 +377,7 @@ footer {
     flex-direction: row;      /* 🔑 empile tout */
     align-items: flex-start;     /* alignement propre */
     gap: 0.3rem;
-    padding: 0; /* 🔑 annule l’héritage desktop */
+    padding: 0 14px; /* 🔑 annule l’héritage desktop en vertical */
   }
 
   .nav-links {
