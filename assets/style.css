@@ -48,15 +48,22 @@ header {
 
 
 
+/* =========================
+   HEADER GLOBAL
+   ========================= */
+
+.site-header {
+  width: 100%;
+}
 
 /* =========================
-   HEADER SHAPE (GLOBAL)
+   BANDEAU DE FORMES
    ========================= */
 
 .header-shape {
   position: relative;
   width: 100%;
-  height: 56px;            /* hauteur du bandeau */
+  height: 10px;            /* hauteur du bandeau */
   overflow: hidden;
 }
 
@@ -91,9 +98,9 @@ header {
 
 
 
-
-
-
+/* =========================
+   NAVBAR (en dessous)
+   ========================= */
 
 .navbar {
   display: flex;
