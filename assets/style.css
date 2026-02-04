@@ -54,9 +54,10 @@ header {
 .navbar {
   position: relative;
   display: flex;
+  width: 100%;
   /*background: rgba(22,43,48,0.72);
   backdrop-filter: blur(10px);*/
-  background: rgba(22,43,48,0.72);
+  background: rgba(22,43,48,0.75);
   backdrop-filter: blur(10px);
   align-items: center;
   justify-content: space-between;
