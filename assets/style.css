@@ -264,8 +264,8 @@ h1 {
 
 .profile-photo {
   float: right;
-  width: 140px;
-  height: 140px;
+  width: 113px;/*227px;*/
+  height: 128px;/*256px;*/
   margin: 0.25rem 0 0.75rem 1.25rem;
   border-radius: 12px;
   object-fit: cover;
