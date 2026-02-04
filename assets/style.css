@@ -266,6 +266,7 @@ h1 {
   float: right;
   width: 113px;/*227px;*/
   height: 128px;/*256px;*/
+  position: relative;
   margin: 0.25rem 0 0.75rem 1.25rem;
   border-radius: 12px;
   object-fit: cover;
@@ -334,38 +335,6 @@ footer {
   color: inherit;
   text-decoration-thickness: 2px;
 }
-
-
-
-
-/* =========================
-   PROFILE CARD – PHOTO
-   ========================= */
-
-.profile-card {
-  position: relative;
-  padding-right: 160px; /* réserve l’espace pour la photo */
-}
-
-.profile-photo {
-  position: absolute;
-  top: 1.25rem;
-  right: 1.25rem;
-  width: 227px;
-  height: 256px;
-  border-radius: 12px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
-.profile-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-
 
 
 
@@ -477,8 +446,8 @@ footer {
     top: 0;
     right: 0;
     margin-bottom: 1rem;
-    width: 96px;
-    height: 96px;
+    width: 86px;
+    height: 86px;
   }
 
   
