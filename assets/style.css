@@ -72,7 +72,13 @@ header {
 }
 
 
-
+.header-shape::after{ 
+  content: ""; 
+  position: absolute;
+  inset: 0;
+  background: #8b5e3c;
+  clip-path:polygon( 30% 0, 100% 0, 100% 100%, 45% 100% ); 
+}
 
 
 
