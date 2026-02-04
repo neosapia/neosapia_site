@@ -361,11 +361,11 @@ footer {
 
   /* Container plus étroit */
   .container {
-    padding: 1.25rem;
+    padding: 1rem;
   }
 
     header {
-    padding: 0.25rem 0;
+    padding: 0;
     /*max-height: 64px;
     overflow: hidden;*/
   }
