@@ -81,15 +81,6 @@ header {
   z-index: 1 !important;          /* 🔑 */
 }
 
-.header-shape::after{
-  content: "" !important;
-  position: absolute !important;
-  inset: 0 !important;
-  background: #2f2a4a !important;
-  clip-path: polygon(0 0, 30% 0, 45% 100%, 0 100%) !important;
-  z-index: 1 !important;          /* 🔑 */
-}
-
 /* Polygone droit */ 
 .header-shape::after{ 
   content: "" !important;
