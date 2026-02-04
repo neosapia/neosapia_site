@@ -53,16 +53,18 @@ header {
 
 .navbar {
   position: relative;
-  display: flex;
-  /*background: rgba(22,43,48,0.72);
-  backdrop-filter: blur(10px);*/
-  background: rgba(22,43,48,0.75);
+  background: rgba(15,15,20,0.75);
   backdrop-filter: blur(10px);
+}
+
+.navbar > .container {
+  display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 14px 14px; /* bords hauts et larges */
+  padding: 14px 0; /* bords hauts et larges */
 }
+
 
 /* ---------- Brand ---------- */
 
