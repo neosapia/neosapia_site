@@ -62,10 +62,10 @@ header {
 
 .header-shape {
   position: relative;
-  z-index: 0;
   width: 100%;
   height: 10px;            /* hauteur du bandeau */
-  /*overflow: hidden;*/
+  overflow: hidden;
+  z-index: 0;
 }
 
 /* Polygone gauche */
@@ -104,7 +104,7 @@ header {
    ========================= */
 
 .navbar {
-    position: relative;
+  position: relative;
   z-index: 1;
   display: flex;
   background: rgba(22,43,48,0.72);
@@ -534,11 +534,4 @@ footer {
   }
 }
 
-
-
-.header-shape{
-  display:block !important;
-  height:30px !important;
-  background: lime !important;
-}
 
