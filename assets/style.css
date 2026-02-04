@@ -64,20 +64,21 @@ header {
 
 /* Polygone gauche */ 
 .header-shape{ 
-  content: ""; 
-  position: absolute;
-  inset: 0;
-  background: #2f2a4a;
-  clip-path: polygon( 0 0, 30% 0, 45% 100%, 0 100% ); 
+  position: relative !important;
+  width: 100% !important;
+  height: 30px !important;
+  overflow: hidden !important;
+  z-index: 0 !important;
 }
 
 
-.header-shape::after{ 
-  content: ""; 
-  position: absolute;
-  inset: 0;
-  background: #8b5e3c;
-  clip-path:polygon( 30% 0, 100% 0, 100% 100%, 45% 100% ); 
+.header-shape::before{
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  background: #2f2a4a !important;
+  clip-path: polygon(0 0, 30% 0, 45% 100%, 0 100%) !important;
+  z-index: 1 !important;          /* 🔑 */
 }
 
 
