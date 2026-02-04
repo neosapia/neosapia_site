@@ -196,6 +196,7 @@ h1 {
   text-transform: uppercase;
   color: var(--muted);
   opacity: 0.85;
+  font-family: "Inter", system-ui, sans-serif;
 }
 
 
