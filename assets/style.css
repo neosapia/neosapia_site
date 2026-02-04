@@ -438,7 +438,7 @@ footer {
   }
   
   .brand-logo {
-    height: 28px;
+    height: 32px; /*28px;*/
     width: auto;
     display: block;
   }
