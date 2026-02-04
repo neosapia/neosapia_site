@@ -431,9 +431,9 @@ footer {
   }
 
   .kicker {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     letter-spacing: 0.08em;
-    padding: 1rem 0 1.5rem; /*top horizontal bottom*/
+    padding: .3rem 0 1.5rem; /*top horizontal bottom*/
   }
 
   /* ---------- HERO ---------- */
