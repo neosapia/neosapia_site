@@ -369,20 +369,6 @@ footer {
     /*max-height: 64px;
     overflow: hidden;*/
   }
-
- /* ---------- LOGO ---------- */
-
-  .brand {
-    margin-bottom: 0.2rem;
-    flex-shrink: 0;
-  }
-  
-  .brand-logo {
-    height: 28px;
-    width: auto;
-    display: block;
-  }
-
   
   /* ---------- NAVBAR ---------- */
 
@@ -391,6 +377,7 @@ footer {
     flex-direction: row;      /* 🔑 empile tout */
     align-items: flex-start;     /* alignement propre */
     gap: 0.3rem;
+    padding: 0; /* 🔑 annule l’héritage desktop */
   }
 
   .nav-links {
@@ -409,6 +396,21 @@ footer {
     text-align: right;            /* plus propre visuellement */
   }
 
+
+ /* ---------- LOGO ---------- */
+
+  .brand {
+    margin-bottom: 0.2rem;
+    flex-shrink: 0;
+  }
+  
+  .brand-logo {
+    height: 28px;
+    width: auto;
+    display: block;
+  }
+
+  
   /* ---------- TITRES ---------- */
 
   h1 {
