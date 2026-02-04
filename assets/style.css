@@ -27,7 +27,7 @@ body {
     radial-gradient(1200px 700px at 80% 0%, rgba(90,70,61,0.55), transparent 60%),
     var(--bg);
   color: var(--text);
-  line-height: 1.55;
+  line-height: 1.45;/*1.55*/
 }
 
 /* ---------- Layout ---------- */
