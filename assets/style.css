@@ -40,55 +40,10 @@ body {
 header {
   position: sticky;
   top: 0;
-  z-index: 0;
   /*background: rgba(15,15,20,0.72);
   backdrop-filter: blur(10px);*/
   border-bottom: 1px solid var(--line);
 }
-
-
-
-/* =========================
-   HEADER GLOBAL
-   ========================= */
-
-.site-header {
-  width: 100%;
-}
-
-/*.header-shape{
-  display:block !important;
-  height:30px !important;
-  background: lime !important;
-}*/
-
-/* Polygone gauche */ 
-.header-shape{ 
-  position: relative !important;
-  width: 100% !important;
-  height: 30px !important;
-  overflow: hidden !important;
-  z-index: 0 !important;
-}
-
-
-.header-shape::before{
-  content: "" !important;
-  position: absolute !important;
-  inset: 0 !important;
-  background: #2f2a4a !important;
-  clip-path: polygon(0 0, 30% 0, 45% 100%, 0 100%) !important;
-  z-index: 1 !important;          /* 🔑 */
-}
-
-/* Polygone droit */ 
-.header-shape::after{ 
-  content: "" !important;
-  position: absolute;
-  inset: 0 !important;
-  background: #8b5e3c;
-  clip-path: polygon( 30% 0, 100% 0, 100% 100%, 45% 100% ); }
-  z-index: 2 !important;          /* 🔑 */
 
 
 
@@ -98,13 +53,11 @@ header {
 
 .navbar {
   position: relative;
-  z-index: 1;
   display: flex;
   /*background: rgba(22,43,48,0.72);
   backdrop-filter: blur(10px);*/
   background: rgba(22,43,48,0.72);
   backdrop-filter: blur(10px);
-  
   align-items: center;
   justify-content: space-between;
   gap: 16px;
