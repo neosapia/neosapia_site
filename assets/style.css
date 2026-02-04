@@ -46,13 +46,6 @@ header {
   border-bottom: 1px solid var(--line);
 }
 
-
-
-.site-header {
-  position: relative;
-    overflow: hidden; /* coupe ce qui dépasse */
-}
-
 .header-shape {
   position: absolute;
   inset: 0;
@@ -61,7 +54,26 @@ header {
   z-index: -1;
 }
 
-/* SVG DE FOND */
+
+
+
+
+/* =========================
+   NAVBAR WITH SVG BACKGROUND
+   ========================= */
+/* CONTENEUR GLOBAL */
+.site-header {
+  position: relative;
+overflow: hidden; /* coupe ce qui dépasse */
+}
+
+/* WRAPPER NAVBAR + SVG */
+.navbar-wrapper {
+  position: relative;       /* 🔑 conteneur de référence */
+  overflow: hidden;
+}
+
+/* SVG = FOND */
 .navbar-bg {
   position: absolute;
   inset: 0;
@@ -70,13 +82,11 @@ header {
   z-index: 0;
 }
 
-/* CONTENU AU-DESSUS DU SVG */
-.site-header .navbar {
-  position: relative;
-  z-index: 1;
-}
 
+/* NAVBAR = CONTENU */
 .navbar {
+  position: relative;   /* 🔑 reste dans le flux */
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
