@@ -128,8 +128,9 @@ header {
 */
 
 .brand-badge {
-width: 150px;/*124px;*/
+/*width: 150px;/*124px;*/
 height: 41px;/*34px;*/
+  aspect-ratio: 620 / 170;
 background-image: url("/assets/neosapiaAll_transp_web.png"); /* CHEMIN ABSOLU */
 background-size: contain;
   background-repeat: no-repeat;
