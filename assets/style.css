@@ -43,6 +43,7 @@ header {
   /*background: rgba(15,15,20,0.72);
   backdrop-filter: blur(10px);*/
   border-bottom: 1px solid var(--line);
+  z-index:2000;
 }
 
 
@@ -50,23 +51,28 @@ header {
 /* =========================
    NAVBAR
    ========================= */
-
+/* Le conteneur "glass" */
 .navbar {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 0;/* crée un stacking context exploitable */
+  isolation:isolate;/* empêche ::before de s’échapper derrière le monde */
 }
 
+/* La couche qui porte le blur + le fond */
 .navbar::before {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(15,15,20,0.75);
-  backdrop-filter: blur(10px);
-  z-index: -1;
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 0;
 }
 
+/* Le contenu doit passer AU-DESSUS de la couche ::before */
 .navbar > .container {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;
