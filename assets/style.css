@@ -102,7 +102,7 @@ header {
 .brand-badge {
   width: 124px;
   height: 34px;
-background-image: url("/assets/logoWeb.png"); /* CHEMIN ABSOLU */
+background-image: url("/assets/neosapiaAll_transp_web"); /* CHEMIN ABSOLU */
 background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
