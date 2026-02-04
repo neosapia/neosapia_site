@@ -56,46 +56,11 @@ header {
   width: 100%;
 }
 
-/* =========================
-   BANDEAU DE FORMES
-   ========================= */
-
-.header-shape {
-  position: relative;
-  width: 100%;
-  height: 10px;            /* hauteur du bandeau */
-  overflow: hidden;
-  z-index: 0;
+.header-shape{
+  display:block !important;
+  height:30px !important;
+  background: lime !important;
 }
-
-/* Polygone gauche */
-.header-shape::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: #2f2a4a;
-  clip-path: polygon(
-    0 0,
-    30% 0,
-    45% 100%,
-    0 100%
-  );
-}
-
-/* Polygone droit */
-.header-shape::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: #8b5e3c;
-  clip-path: polygon(
-    30% 0,
-    100% 0,
-    100% 100%,
-    45% 100%
-  );
-}
-
 
 
 
