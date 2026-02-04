@@ -180,8 +180,6 @@ h1 {
 
 
 
-
-
 /* Base commune */
 .badge {
   font-size: 0.9rem;
@@ -257,6 +255,28 @@ h1 {
 .card li {
   margin: 8px 0;
 }
+
+
+/* ---------- Photo ---------- */
+.profile-card {
+  overflow: hidden; /* contient le float */
+}
+
+.profile-photo {
+  float: right;
+  width: 140px;
+  height: 140px;
+  margin: 0.25rem 0 0.75rem 1.25rem;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* Force le texte suivant à passer SOUS la photo */
+.profile-clear {
+  clear: both;
+}
+
+
 
 /* ---------- Quotes & CTA ---------- */
 
