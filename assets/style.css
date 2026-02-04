@@ -48,13 +48,22 @@ header {
 
 
 /* =========================
-   NAVBAR (en dessous)
+   NAVBAR
    ========================= */
 
 .navbar {
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   background: rgba(15,15,20,0.75);
   backdrop-filter: blur(10px);
+  z-index: -1;
 }
 
 .navbar > .container {
@@ -62,7 +71,7 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 14px 0; /* bords hauts et larges */
+  padding: 14px 0;
 }
 
 
