@@ -473,6 +473,7 @@ footer {
 
 @media (max-width: 768px) {
   .lang-switch {
+        font-size: .8rem;
     margin-top: 6px;
     align-self: flex-end;
   }
