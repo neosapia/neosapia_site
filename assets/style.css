@@ -197,31 +197,33 @@ background-size: contain;
   align-items: center;
   gap: 2px;
   margin-left: 2px;
-  font-size: 8px;
-  letter-spacing: 0.05em;
+  /*font-size: 8px;
+  letter-spacing: 0.05em;*/
 }
 
 /* séparateur */
 .lang-switch span {
-  opacity: 0.35;
+  opacity: 0.25;
 }
 
 /* liens */
 .lang-switch a {
   text-decoration: none;
   color: #ffffff;
-  opacity: 0.35;        /* langue inactive */
+  opacity: 0.25;        /* langue inactive */
   transition: opacity 0.2s ease;
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
 }
 
 /* langue active */
 .lang-switch a.active {
-  opacity: 1;
+  opacity: .9;
 }
 
 /* hover subtil */
 .lang-switch a:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 
@@ -478,7 +480,10 @@ footer {
     align-self: flex-end;
   }
 }
-
+  .lang-switch a {
+    font-size: 0.75em;
+  }
+}
 
 
   
