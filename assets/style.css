@@ -197,7 +197,7 @@ background-size: contain;
   align-items: center;
   gap: 2px;
   margin-left: 2px;
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 0.05em;
 }
 
@@ -212,7 +212,7 @@ background-size: contain;
   color: #ffffff;
   opacity: 0.25;        /* langue inactive */
   transition: opacity 0.2s ease;
-  font-size: 0.8em;
+  font-size: 0.9em;
   letter-spacing: 0.08em;
 }
 
