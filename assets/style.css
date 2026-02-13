@@ -166,8 +166,8 @@ background-size: contain;
 
 .nav-links a {
   text-decoration: none;
-  padding: 8px 10px;
-  border-radius: 10px;
+  padding: 8px 5px;
+  border-radius: 6px;
   border: 1px solid transparent;
   color: var(--muted);
   font-size: 14px;
