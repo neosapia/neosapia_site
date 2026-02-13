@@ -195,9 +195,9 @@ background-size: contain;
 .lang-switch {
   display: flex;
   align-items: center;
-  gap: 4px;
-  margin-left: 5px;
-  font-size: 12px;
+  gap: 2px;
+  margin-left: 2px;
+  font-size: 10px;
   letter-spacing: 0.05em;
 }
 
