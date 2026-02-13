@@ -166,7 +166,7 @@ background-size: contain;
 
 .nav-links a {
   text-decoration: none;
-  padding: 8px 5px;
+  padding: 5px 8px;
   border-radius: 6px;
   border: 1px solid transparent;
   color: var(--muted);
@@ -212,8 +212,8 @@ background-size: contain;
   color: #ffffff;
   opacity: 0.25;        /* langue inactive */
   transition: opacity 0.2s ease;
-  font-size: 0.9em;
-  letter-spacing: 0.08em;
+ /* font-size: 0.9em;
+  letter-spacing: 0.08em; */
 }
 
 /* langue active */
