@@ -212,7 +212,7 @@ background-size: contain;
   color: #ffffff;
   opacity: 0.25;        /* langue inactive */
   transition: opacity 0.2s ease;
- font-size: 0.9em;
+ font-size: 0.59em;
   letter-spacing: 0.08em;
 }
 
