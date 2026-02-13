@@ -197,7 +197,7 @@ background-size: contain;
   align-items: center;
   gap: 4px;
   margin-left: 10px;
-  font-size: 13px;
+  font-size: 11px;
   letter-spacing: 0.05em;
 }
 
@@ -216,7 +216,7 @@ background-size: contain;
 
 /* langue active */
 .lang-switch a.active {
-  opacity: 1;
+  opacity: .35;
 }
 
 /* hover subtil */
