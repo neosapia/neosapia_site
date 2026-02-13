@@ -194,23 +194,36 @@ background-size: contain;
 /* ---------- Language ---------- */
 .lang-switch {
   display: flex;
-  gap: 6px;
-  margin-left: 8px;
+  align-items: center;
+  gap: 4px;
+  margin-left: 10px;
+  font-size: 13px;
+  letter-spacing: 0.05em;
 }
 
+/* séparateur */
+.lang-switch span {
+  opacity: 0.35;
+}
+
+/* liens */
 .lang-switch a {
-  font-size: 12px;
   text-decoration: none;
-  color: var(--muted);
-  padding: 4px 6px;
-  border-radius: 6px;
-  border: 1px solid transparent;
+  color: #ffffff;
+  opacity: 0.35;        /* langue inactive */
+  transition: opacity 0.2s ease;
 }
 
-.lang-switch a:hover {
-  color: var(--text);
-  border-color: var(--line);
+/* langue active */
+.lang-switch a.active {
+  opacity: 1;
 }
+
+/* hover subtil */
+.lang-switch a:hover {
+  opacity: 0.7;
+}
+
 
 
 
