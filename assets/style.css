@@ -196,8 +196,8 @@ background-size: contain;
   display: flex;
   align-items: center;
   gap: 4px;
-  margin-left: 10px;
-  font-size: 13px;
+  margin-left: 5px;
+  font-size: 12px;
   letter-spacing: 0.05em;
 }
 
