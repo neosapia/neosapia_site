@@ -197,7 +197,7 @@ background-size: contain;
   align-items: center;
   gap: 2px;
   margin-left: 2px;
-  opacity: 0.25; 
+  /*opacity: 0.25; */
   /*font-size: 12px;
   letter-spacing: 0.05em;*/
 }
