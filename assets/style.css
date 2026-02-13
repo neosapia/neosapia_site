@@ -197,7 +197,7 @@ background-size: contain;
   align-items: center;
   gap: 4px;
   margin-left: 10px;
-  font-size: 11px;
+  font-size: 13px;
   letter-spacing: 0.05em;
 }
 
@@ -216,13 +216,14 @@ background-size: contain;
 
 /* langue active */
 .lang-switch a.active {
-  opacity: .35;
+  opacity: 1;
 }
 
 /* hover subtil */
 .lang-switch a:hover {
   opacity: 0.7;
 }
+
 
 
 
